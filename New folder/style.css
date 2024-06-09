@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+.container {
+    background:#aff0e2 ;
+    min-height: 200vh;
+    margin-inline-end: auto;
+    border: 10PX solid #1D1E4C;
+    border-bottom: 20px;
+    
+}
+.content{
+    max-height: 900px;
+    margin: 0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.image_container{
+    border-radius: 30%;
+   }
+.image_container,
+img{
+    width: 300px;
+    display: flex;
+    height: 400px;
+    float: right;
+    margin: 10px;
+    text-size-adjust: 30px;
+    margin-top: 20px;
+}
+.about_section{
+    margin-top: 50px;
+}
+.about_section h2{
+    font-size: 40px;
+    font-weight: 40;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+.about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: justify;
+    padding-right: 50px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image_part{
+    border-radius: 30%;
+}
+.image_part,
+img{
+    width: 300px;
+    display: flex;
+    height:400px;
+    float: left;
+    margin: 10px;
+    text-size-adjust: 30px;
+    margin-top: 20px;
+}
+h3{
+    font-size: 30px;
+    margin-left: 100px;
+}
+p{
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Achievment_section{
+    margin-left: 20px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.Achievment_section h5{
+    font-size: 30px;
+    margin-left: 100px;
+}
+.Achievment_section p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+footer{
+    margin: 50px 0;
+
+}
+footer p{
+    text-align: end;
+    padding-top: 10px;
+    margin-top: auto;
+    padding-right: 50px;
+}
+
